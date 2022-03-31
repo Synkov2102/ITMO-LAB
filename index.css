@@ -1,0 +1,26 @@
+.footer {
+    width: 320px;
+    height: 558px;
+    background-color: hsl(219, 100%, 11%);
+    margin: 0 auto;
+    color: white;
+}
+
+.footer__column {
+    display: flex;
+}
+
+.footer__info_content_social {
+    border: 1px solid red;
+}
+
+.footer__info-links {
+    display: flex;
+    list-style-type: none;
+    margin-left: 17px;
+    padding-left: 0px;
+}
+
+.footer__info-link {
+    margin-right: 10px;
+}
