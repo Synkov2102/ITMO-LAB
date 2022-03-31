@@ -1,0 +1,17 @@
+@import url(../footer/footer.css);
+@import url(../footer/__main/footer__main.css);
+@import url(../footer/footer__logo/footer__logo.css);
+@import url(../footer/__text/footer__text.css);
+@import url(../footer/__colunm/footer__column.css);
+@import url(../footer/__column-info/footer__column-info.css);
+@import url(../footer/__column-heading/footer__column-heading.css);
+@import url(../footer/__column-links/footer__column-links.css);
+@import url(../footer/__column-link/footer__column-link.css);
+@import url(../footer/__info/footer__info.css);
+@import url(../footer/__info-title/footer__info-title.css);
+@import url(../footer/__info-texts/footer__info-texts.css);
+@import url(../footer/__info-text/footer__info-text.css);
+@import url(../footer/__social/footer__social.css);
+@import url(../footer/__social-links/footer__social-links.css);
+@import url(../footer/__social-link/footer__social-link.css);
+@import url(../footer/__author/footer__author.css);

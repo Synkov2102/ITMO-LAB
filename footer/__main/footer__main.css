@@ -1,0 +1,6 @@
+.footer__main {
+    width: 1110px;
+    border: 5px solid green;
+    height: 418px;
+    display: flex;
+}
