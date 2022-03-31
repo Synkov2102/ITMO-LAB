@@ -1,1 +1,4 @@
-.footer__column {}
+.footer__column {
+    display: flex;
+    justify-content: space-around;
+}

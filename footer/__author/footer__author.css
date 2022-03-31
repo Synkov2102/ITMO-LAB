@@ -1,1 +1,7 @@
-.footer__author {}
+.footer__author {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin-bottom: 0px;
+    border: 1px solid green;
+}

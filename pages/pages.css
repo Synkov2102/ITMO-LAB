@@ -1,6 +1,8 @@
 @import url(../footer/footer.css);
 @import url(../footer/__main/footer__main.css);
+@import url(../footer/__inform/footer__inform.css);
 @import url(../footer/footer__logo/footer__logo.css);
+@import url(../footer/__texts/footer__texts.css);
 @import url(../footer/__text/footer__text.css);
 @import url(../footer/__colunm/footer__column.css);
 @import url(../footer/__column-info/footer__column-info.css);
