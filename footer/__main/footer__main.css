@@ -1,8 +1,9 @@
 .footer__main {
     width: 1110px;
-    border: 5px solid green;
     height: 418px;
-    position: relative;
-    display: flex;
-    align-items: center;
+    border: 5px solid green;
+    display: grid;
+    grid-template-rows: 17% 73% 10%;
+    grid-template-columns: 26% 55% 19%;
+    grid-template-areas: "logo logo logo" "text column info" "author author author ";
 }

@@ -1,1 +1,6 @@
-.footer__info {}
+.footer__info {
+    display: grid;
+    grid-template-rows: 18% 65%;
+    grid-area: info;
+    border: 1px solid yellow;
+}

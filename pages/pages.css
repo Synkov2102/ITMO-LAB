@@ -1,11 +1,13 @@
+@import url(../fonts/inter.css);
 @import url(../footer/footer.css);
 @import url(../footer/__main/footer__main.css);
 @import url(../footer/__inform/footer__inform.css);
 @import url(../footer/footer__logo/footer__logo.css);
 @import url(../footer/__texts/footer__texts.css);
 @import url(../footer/__text/footer__text.css);
-@import url(../footer/__colunm/footer__column.css);
-@import url(../footer/__column-info/footer__column-info.css);
+@import url(../footer/__colunms/footer__columns.css);
+@import url(../footer/__colunms/_content_center/footer__column_content_center.css);
+@import url(../footer/__colunms/_content_develop/footer__column_content_develop.css);
 @import url(../footer/__column-heading/footer__column-heading.css);
 @import url(../footer/__column-links/footer__column-links.css);
 @import url(../footer/__column-link/footer__column-link.css);

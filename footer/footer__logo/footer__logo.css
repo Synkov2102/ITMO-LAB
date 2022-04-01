@@ -3,7 +3,5 @@
     width: 150px;
     height: 54px;
     background-repeat: no-repeat;
-    position: absolute;
-    top: 0px;
-    left: 0px;
+    grid-area: logo;
 }

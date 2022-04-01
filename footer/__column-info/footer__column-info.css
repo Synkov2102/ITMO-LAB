@@ -1,1 +1,3 @@
-.footer__column-info {}
+.footer__column-info {
+    border: 5px solid green;
+}
