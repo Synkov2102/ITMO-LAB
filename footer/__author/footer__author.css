@@ -1,6 +1,6 @@
 .footer__author {
-    border: 1px solid green;
     grid-area: author;
     display: flex;
     align-items: self-end;
+    font-size: 16px;
 }

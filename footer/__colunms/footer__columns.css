@@ -1,5 +1,4 @@
 .footer__columns {
     display: flex;
-    border: 1px solid red;
     grid-area: column;
 }
