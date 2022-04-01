@@ -5,3 +5,10 @@
     margin-top: 14px;
     margin-left: 4px;
 }
+
+@media screen and (max-width:768px) {
+    .footer__social-links {
+        margin-top: 50px;
+        margin-left: 1px;
+    }
+}

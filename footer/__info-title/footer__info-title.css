@@ -5,5 +5,15 @@
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
-    margin-bottom: 0px;
+}
+
+@media screen and (max-width:768px) {
+    .footer__info-title {
+        margin-top: 94px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0.10000000149011612px;
+        text-align: left;
+    }
 }

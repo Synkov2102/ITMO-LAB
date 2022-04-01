@@ -2,11 +2,27 @@
     grid-area: author;
     display: flex;
     align-items: self-end;
-    font-size: 16px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
 @media screen and (max-width:863px) {
     .footer__author {
         margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .footer__author {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.10000000149011612px;
+        text-align: left;
+        margin-bottom: 47px;
     }
 }
