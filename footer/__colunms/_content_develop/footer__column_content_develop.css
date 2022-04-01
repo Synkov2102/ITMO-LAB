@@ -1,5 +1,5 @@
 .footer__column_content_develop {
-    margin-left: 25%;
+    margin-left: 26%;
 }
 
 @media screen and (max-width:1280px) {
@@ -11,5 +11,12 @@
 @media screen and (max-width:863px) {
     .footer__column_content_develop {
         margin-left: calc(25% - 20%);
+    }
+}
+
+@media screen and (max-width:768px) {
+    .footer__column_content_develop {
+        margin-left: 55px;
+        margin-top: 93px;
     }
 }

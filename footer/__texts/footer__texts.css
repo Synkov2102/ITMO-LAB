@@ -10,12 +10,12 @@
     margin-left: 0px;
 }
 
-@media screen and (max-width:764px) {
+@media screen and (max-width:768px) {
     .footer__texts {
         font-style: normal;
         font-weight: 400;
-        font-size: 12px;
-        line-height: 20px;
+        font-size: 13px;
+        line-height: 23px;
         letter-spacing: 0.1px;
         margin-top: 20px;
     }

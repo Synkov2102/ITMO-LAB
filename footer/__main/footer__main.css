@@ -30,7 +30,7 @@
 
 @media screen and (max-width:768px) {
     .footer__main {
-        grid-template-rows: 10% 80% 10%;
-        grid-template-columns: 33% 42% 30%;
+        grid-template-rows: 10% 73% 10%;
+        grid-template-columns: 36% 36% 28%;
     }
 }

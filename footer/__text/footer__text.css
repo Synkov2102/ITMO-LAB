@@ -3,7 +3,7 @@
 }
 
 @media screen and (max-width:768px) {
-    .footer__text {
-        margin-bottom: 0px;
+    .footer__text:nth-of-type(2n) {
+        margin-top: 34px;
     }
 }

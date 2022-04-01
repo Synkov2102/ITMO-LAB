@@ -7,3 +7,10 @@
         margin-left: calc(20% - 10%);
     }
 }
+
+@media screen and (max-width:768px) {
+    .footer__column_content_center {
+        margin-left: 0px;
+        margin-top: 93px;
+    }
+}
