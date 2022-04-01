@@ -9,3 +9,14 @@
     margin-top: 5px;
     margin-left: 0px;
 }
+
+@media screen and (max-width:764px) {
+    .footer__texts {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+        margin-top: 20px;
+    }
+}

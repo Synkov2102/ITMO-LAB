@@ -6,3 +6,31 @@
     grid-template-columns: 26% 55% 19%;
     grid-template-areas: "logo logo logo" "text column info" "author author author ";
 }
+
+@media screen and (max-width:1439px) {
+    .footer__main {
+        width: 90%;
+        height: 90%;
+        grid-template-columns: 29% 50% 20%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .footer__main {
+        grid-template-columns: 32% 45% 23%;
+    }
+}
+
+@media screen and (max-width:863px) {
+    .footer__main {
+        grid-template-rows: 15% 80% 10%;
+        grid-template-columns: 32% 40% 27%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .footer__main {
+        grid-template-rows: 10% 80% 10%;
+        grid-template-columns: 33% 42% 30%;
+    }
+}

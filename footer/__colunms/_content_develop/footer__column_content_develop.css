@@ -1,3 +1,15 @@
 .footer__column_content_develop {
     margin-left: 25%;
 }
+
+@media screen and (max-width:1280px) {
+    .footer__column_content_develop {
+        margin-left: calc(25% - 5%);
+    }
+}
+
+@media screen and (max-width:863px) {
+    .footer__column_content_develop {
+        margin-left: calc(25% - 20%);
+    }
+}
