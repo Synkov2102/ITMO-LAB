@@ -7,7 +7,7 @@
     grid-template-areas: "logo logo logo" "text column info" "author author author ";
 }
 
-@media screen and (max-width:1439px) {
+@media (max-width:1439px) {
     .footer__main {
         width: 90%;
         height: 90%;
@@ -15,27 +15,27 @@
     }
 }
 
-@media screen and (max-width:1088px) {
+@media (max-width:1088px) {
     .footer__main {
         grid-template-columns: 35% 37% 28%;
     }
 }
 
-@media screen and (max-width:863px) {
+@media (max-width:863px) {
     .footer__main {
         grid-template-rows: 15% 80% 10%;
         grid-template-columns: 32% 36% 30%;
     }
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
     .footer__main {
         grid-template-rows: 10% 73% 10%;
         grid-template-columns: 36% 35% 29%;
     }
 }
 
-@media screen and (max-width:765px) {
+@media (max-width:765px) {
     .footer__main {
         grid-template-rows: 10% 40% 40% 10%;
         grid-template-columns: 50% 50%;
@@ -43,7 +43,7 @@
     }
 }
 
-@media screen and (max-width:320px) {
+@media (max-width:320px) {
     .footer__main {
         width: 99%;
         height: 100%;

@@ -3,13 +3,13 @@
         margin-left: 0px;
     }
     
-    @media screen and (max-width:768px) {
+    @media (max-width:768px) {
         .footer__texts {
             margin-top: 20px;
         }
     }
     
-    @media screen and (max-width:765px) {
+    @media (max-width:765px) {
         .footer__texts {
             margin-top: 0px;
         }

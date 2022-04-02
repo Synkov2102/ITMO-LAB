@@ -10,13 +10,13 @@
     text-align: left;
 }
 
-@media screen and (max-width:863px) {
+@media (max-width:863px) {
     .footer__author {
         margin-bottom: 50px;
     }
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
     .footer__author {
         font-size: 12px;
         font-weight: 400;
@@ -27,7 +27,7 @@
     }
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
     .footer__author {
         font-size: 14px;
         font-weight: 400;
@@ -36,7 +36,7 @@
     }
 }
 
-@media screen and (max-width:425px) {
+@media (max-width:425px) {
     .footer__author {
         font-size: 12px;
         font-weight: 400;
@@ -46,7 +46,7 @@
     }
 }
 
-@media screen and (max-width:320px) {
+@media (max-width:320px) {
     .footer__author {
         margin-bottom: 12px;
         margin-left: 38px;

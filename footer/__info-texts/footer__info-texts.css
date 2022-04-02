@@ -9,7 +9,7 @@
     text-align: left;
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
     .footer__info-texts {
         margin-top: 59px;
         font-size: 12px;
@@ -21,7 +21,7 @@
     }
 }
 
-@media screen and (max-width:765px) {
+@media (max-width:765px) {
     .footer__info-texts {
         font-size: 14px;
         font-weight: 400;
@@ -30,7 +30,7 @@
     }
 }
 
-@media screen and (max-width:425px) {
+@media (max-width:425px) {
     .footer__info-texts {
         font-size: 12px;
         font-weight: 400;
@@ -40,7 +40,7 @@
     }
 }
 
-@media screen and (max-width:320px) {
+@media (max-width:320px) {
     .footer__info-texts {
         margin-top: 7px;
         margin-left: 3px;

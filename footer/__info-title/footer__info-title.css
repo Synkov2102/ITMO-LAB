@@ -9,7 +9,7 @@
     margin-top: 21px;
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
     .footer__info-title {
         margin-top: 91px;
         margin-left: 13px;
@@ -21,7 +21,7 @@
     }
 }
 
-@media screen and (max-width:765px) {
+@media (max-width:765px) {
     .footer__info-title {
         font-size: 18px;
         font-weight: 600;
@@ -31,7 +31,7 @@
     }
 }
 
-@media screen and (max-width:425px) {
+@media (max-width:425px) {
     .footer__info-title {
         font-size: 14px;
         font-weight: 600;
@@ -41,7 +41,7 @@
     }
 }
 
-@media screen and (max-width:320px) {
+@media (max-width:320px) {
     .footer__info-title {
         margin-left: 15px;
         margin-top: 2px;

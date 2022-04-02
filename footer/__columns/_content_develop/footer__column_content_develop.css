@@ -2,26 +2,26 @@
     margin-left: 26%;
 }
 
-@media screen and (max-width:1280px) {
+@media (max-width:1280px) {
     .footer__column_content_develop {
         margin-left: calc(25% - 5%);
     }
 }
 
-@media screen and (max-width:863px) {
+@media (max-width:863px) {
     .footer__column_content_develop {
         margin-left: calc(25% - 20%);
     }
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
     .footer__column_content_develop {
         margin-left: 43px;
         margin-top: 93px;
     }
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
     .footer__column_content_develop {
         margin-left: 0px;
         margin-top: 0px;
@@ -29,7 +29,7 @@
     }
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
     .footer__column_content_develop {
         margin-left: 70px;
     }

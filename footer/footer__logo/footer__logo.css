@@ -6,7 +6,7 @@
     grid-area: logo;
 }
 
-@media screen and (max-width:425px) {
+@media (max-width:425px) {
     .footer__logo {
         background-image: url(../../images/Logo_small.svg);
         width: 98px;
@@ -14,7 +14,7 @@
     }
 }
 
-@media screen and (max-width:320px) {
+@media (max-width:320px) {
     .footer__logo {
         margin-top: 40px;
         margin-left: 14px;

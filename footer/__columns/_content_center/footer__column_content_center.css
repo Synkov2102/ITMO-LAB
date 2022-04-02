@@ -2,20 +2,20 @@
     margin-left: 22%;
 }
 
-@media screen and (max-width:1280px) {
+@media (max-width:1280px) {
     .footer__column_content_center {
         margin-left: calc(20% - 10%);
     }
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
     .footer__column_content_center {
         margin-left: 0px;
         margin-top: 93px;
     }
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
     .footer__column_content_center {
         margin-left: 0px;
         margin-top: 0px;
@@ -23,7 +23,7 @@
     }
 }
 
-@media screen and (max-width:320px) {
+@media (max-width:320px) {
     .footer__column_content_center {
         margin-left: 10px;
     }

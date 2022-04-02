@@ -4,7 +4,7 @@
     grid-area: info;
 }
 
-@media screen and (max-width:765px) {
+@media (max-width:765px) {
     .footer__info {
         display: flex;
         flex-direction: column;

@@ -10,7 +10,7 @@
     text-align: left;
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
     .footer__column-heading {
         font-size: 12px;
         font-weight: 700;
@@ -20,7 +20,7 @@
     }
 }
 
-@media screen and (max-width:765px) {
+@media (max-width:765px) {
     .footer__column-heading {
         margin-bottom: 0px;
         margin-top: 19px;
@@ -31,7 +31,7 @@
     }
 }
 
-@media screen and (max-width:425px) {
+@media (max-width:425px) {
     .footer__column-heading {
         font-size: 12px;
         font-weight: 600;

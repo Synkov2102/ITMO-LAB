@@ -17,7 +17,7 @@
     margin-top: 23px;
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
     .footer__text {
         font-size: 12px;
         font-weight: 400;
@@ -35,7 +35,7 @@
     }
 }
 
-@media screen and (max-width:765px) {
+@media (max-width:765px) {
     .footer__text {
         font-size: 14px;
         font-weight: 400;
@@ -48,7 +48,7 @@
     }
 }
 
-@media screen and (max-width:425px) {
+@media (max-width:425px) {
     .footer__text {
         font-size: 12px;
         font-weight: 400;
@@ -57,7 +57,7 @@
     }
 }
 
-@media screen and (max-width:320px) {
+@media (max-width:320px) {
     .footer__text {
         margin-top: 40px;
         margin-left: 18px;
