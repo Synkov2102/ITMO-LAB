@@ -3,7 +3,7 @@
     height: 418px;
     display: grid;
     grid-template-rows: 17% 73% 10%;
-    grid-template-columns: 26% 55% 19%;
+    grid-template-columns: 25% 54% 21%;
     grid-template-areas: "logo logo logo" "text column info" "author author author ";
 }
 
@@ -17,20 +17,28 @@
 
 @media screen and (max-width:1024px) {
     .footer__main {
-        grid-template-columns: 32% 45% 23%;
+        grid-template-columns: 35% 37% 28%;
     }
 }
 
 @media screen and (max-width:863px) {
     .footer__main {
         grid-template-rows: 15% 80% 10%;
-        grid-template-columns: 32% 40% 27%;
+        grid-template-columns: 32% 36% 30%;
     }
 }
 
 @media screen and (max-width:768px) {
     .footer__main {
         grid-template-rows: 10% 73% 10%;
-        grid-template-columns: 36% 36% 28%;
+        grid-template-columns: 36% 35% 29%;
+    }
+}
+
+@media screen and (max-width:765px) {
+    .footer__main {
+        grid-template-rows: 10% 40% 40% 10%;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: "logo text" "column column" "info info" "author author";
     }
 }

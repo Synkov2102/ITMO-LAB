@@ -1,22 +1,10 @@
-.footer__texts {
-    font-family: Open Sans;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
-    grid-area: text;
-    margin-top: 5px;
-    margin-left: 0px;
-}
-
-@media screen and (max-width:768px) {
     .footer__texts {
-        font-family: Open Sans;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 16px;
-        letter-spacing: 0em;
-        text-align: left;
+        margin-top: 6px;
+        margin-left: 0px;
     }
-}
+    
+    @media screen and (max-width:768px) {
+        .footer__texts {
+            margin-top: 20px;
+        }
+    }

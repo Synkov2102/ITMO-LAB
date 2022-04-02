@@ -5,12 +5,16 @@
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
+    margin-left: 31px;
+    margin-top: 21px;
 }
 
 @media screen and (max-width:768px) {
     .footer__info-title {
-        margin-top: 94px;
-        font-size: 20px;
+        margin-top: 91px;
+        margin-left: 13px;
+        font-family: Open Sans;
+        font-size: 18px;
         font-weight: 700;
         line-height: 20px;
         letter-spacing: 0.10000000149011612px;
