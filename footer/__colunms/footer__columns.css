@@ -2,3 +2,17 @@
     display: flex;
     grid-area: column;
 }
+
+@media screen and (max-width: 765px) {
+    .footer__columns {
+        display: flex;
+        grid-area: column;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__columns {
+        justify-content: flex-start;
+    }
+}

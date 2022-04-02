@@ -15,7 +15,7 @@
     }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1088px) {
     .footer__main {
         grid-template-columns: 35% 37% 28%;
     }
@@ -40,5 +40,13 @@
         grid-template-rows: 10% 40% 40% 10%;
         grid-template-columns: 50% 50%;
         grid-template-areas: "logo text" "column column" "info info" "author author";
+    }
+}
+
+@media screen and (max-width:320px) {
+    .footer__main {
+        width: 99%;
+        height: 100%;
+        grid-template-rows: 13% 35% 35% 10%;
     }
 }

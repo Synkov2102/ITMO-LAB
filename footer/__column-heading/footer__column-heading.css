@@ -16,7 +16,26 @@
         font-weight: 700;
         line-height: 16px;
         letter-spacing: 0.10000000149011612px;
-        text-align: left;
         margin-top: 0px;
+    }
+}
+
+@media screen and (max-width:765px) {
+    .footer__column-heading {
+        margin-bottom: 0px;
+        margin-top: 19px;
+        margin-left: 5px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 19px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .footer__column-heading {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: 0.05883720517158508px;
     }
 }

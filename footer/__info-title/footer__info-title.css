@@ -13,11 +13,37 @@
     .footer__info-title {
         margin-top: 91px;
         margin-left: 13px;
-        font-family: Open Sans;
         font-size: 18px;
         font-weight: 700;
         line-height: 20px;
         letter-spacing: 0.10000000149011612px;
         text-align: left;
+    }
+}
+
+@media screen and (max-width:765px) {
+    .footer__info-title {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .footer__info-title {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .footer__info-title {
+        margin-left: 15px;
+        margin-top: 2px;
     }
 }
