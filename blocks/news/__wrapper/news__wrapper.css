@@ -4,8 +4,13 @@
 
 @media screen and (min-width: 768px) {
     .news__wrapper {
-        /* max-width: calc(768px - 2 * 39px);
-        transform: translate3d(0px,0,0); */
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+    .news__wrapper {
+        width: 1110px;
     }
     
 }

@@ -2,31 +2,46 @@ const swiper = new Swiper('.swiper', {
   spaceBetween: 10,
   centeredSlides: true,
   breakpoints: {
-    // when window width is >= 320px
     320: {
       slidesPerView: 1,
-      spaceBetween: 10
+      spaceBetween: 10,
     },
-    // when window width is >= 480px
     768: {
       slidesPerView: 2,
       spaceBetween: 30,
       centeredSlides: false,
     },
-    // when window width is >= 640px
     1440: {
       slidesPerView: 3,
-      spaceBetween: 32
+      spaceBetween: 32,
+      centeredSlides: false,
     }
   },
-  // If we need pagination
   pagination: {
     el: '.swiper-pagination',
   },
-
-  // Navigation arrows
-  // navigation: {
-  //   nextEl: '.swiper-button-next',
-  //   prevEl: '.swiper-button-prev',
-  // },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  on: {
+    init: function () {
+      checkArrow();
+    },
+    resize: function () {
+      checkArrow();
+    }
+  }
 });
+
+function checkArrow() {
+  const swiperPrev = document.querySelector('.swiper-button-prev');
+  const swiperNext = document.querySelector('.swiper-button-next');
+  if (window.innerWidth >= 1440) {
+    swiperPrev.style.display = 'block';
+    swiperNext.style.display = 'block';
+  } else {
+    swiperPrev.style.display = 'none';
+    swiperNext.style.display = 'none';
+  }
+}

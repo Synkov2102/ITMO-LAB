@@ -4,9 +4,11 @@
     color: #001337;
     border-bottom: 1px solid #009FAC;
     margin: 0;
-    text-overflow: ellipsis;
-    /* white-space: nowrap; */
+    /* text-overflow: ellipsis; */
     overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
     font-size: 14px;
     line-height: 19px;
     max-width: 256px;
@@ -20,8 +22,14 @@
         font-size: 18px;
         line-height: 30px;
         max-width: 290px;
-        max-height: 90px;
+        height: 80px;
         padding-bottom: 20px;
         margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .news-item__title {
+        max-width: 310px;
     }
 }

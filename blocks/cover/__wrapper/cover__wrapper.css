@@ -3,22 +3,22 @@
     color: #fff;
     min-width: 0;
     overflow: hidden;
-}
-
-@media screen and (min-width: 320px) {
-    .cover__wrapper {
-        max-width: 320px;
-        background: url(../../../images/backgroun-mobile.png) no-repeat;
-        background-size: cover;
-        flex-direction: column;
-    }
+    max-width: 320px;
+    background: url(../../../images/backgroun-mobile.png) no-repeat;
+    background-size: cover;
+    flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {
     .cover__wrapper {
         max-width: 768px;
         background: url(../../../images/background-tablet.png) no-repeat;
-        background-size: cover;
-        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .cover__wrapper {
+        max-width: 1440px;
+        background: url(../../../images/Background.png) no-repeat;
     }
 }

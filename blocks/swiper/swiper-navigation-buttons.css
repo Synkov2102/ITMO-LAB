@@ -1,0 +1,36 @@
+.swiper-button-prev {
+    width: 60px;
+    height: 60px;
+    background: url(../../images/button-prev.svg) no-repeat;
+    background-size: 60px 60px;
+    position: absolute;
+    top: 35%;
+    left: calc((1440px - 1110px) / 4);
+    
+
+}
+
+.swiper-button-prev::after {
+    content: "";
+    
+}
+
+.swiper-button-next {
+    width: 60px;
+    height: 60px;
+    background: url(../../images/button-next.svg) no-repeat;
+    background-size: 60px 60px;
+    position: absolute;
+    top: 35%;
+    right: calc((1440px - 1110px) / 4);
+
+}
+
+.swiper-button-next::after {
+    content: "";
+}
+
+.swiper-container {
+    position: relative;
+    max-width: 1440px;
+}
