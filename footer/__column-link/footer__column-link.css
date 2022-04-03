@@ -10,7 +10,7 @@
     padding-left: 0px;
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
     .footer__column-link {
         font-size: 12px;
         font-weight: 400;
@@ -19,7 +19,7 @@
     }
 }
 
-@media screen and (max-width:765px) {
+@media (max-width:765px) {
     .footer__column-link {
         font-size: 14px;
         font-weight: 400;

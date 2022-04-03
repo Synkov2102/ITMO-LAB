@@ -3,7 +3,7 @@
     grid-area: column;
 }
 
-@media screen and (max-width: 765px) {
+@media (max-width: 765px) {
     .footer__columns {
         display: flex;
         grid-area: column;
@@ -11,7 +11,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media (max-width: 320px) {
     .footer__columns {
         justify-content: flex-start;
     }
