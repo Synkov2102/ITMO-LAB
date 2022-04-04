@@ -6,13 +6,10 @@
     position: absolute;
     top: 35%;
     left: calc((1440px - 1110px) / 4);
-    
-
 }
 
 .swiper-button-prev::after {
     content: "";
-    
 }
 
 .swiper-button-next {

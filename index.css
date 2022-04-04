@@ -13,7 +13,6 @@
 @import url(./blocks/cover/__button/cover__button.css);
 
 @import url(./blocks/about-us/about-us.css);
-@import url(./blocks/about-us/__wrapper/about-us__wrapper.css);
 @import url(./blocks/about-us/__title/about-us__title.css);
 @import url(./blocks/about-us/__text/about-us__text.css);
 
@@ -25,4 +24,4 @@
 @import url(./blocks/news/news-item/__wrapper/new-item__wrapper.css);
 @import url(./blocks/news/news-item/__text/news-item__text.css);
 
-@import url(./blocks/swiper/swiper-navigation-buttons.css);
+@import url(./blocks/swiper/swiper.css);
