@@ -12,15 +12,11 @@
 @import url(./blocks/lab/__photos-img/lab__photos-img.css);
 @import url(./blocks/lab/__cards/lab__cards.css);
 @import url(./blocks/lab/__card/lab__card.css);
-@import url(./blocks/lab/__card-data/lab__card-data.css);
-@import url(./blocks/lab/__card-machine/lab__card-machine.css);
-@import url(./blocks/lab/__card-project/lab__card-project.css);
-@import url(./blocks/lab/__card-robot/lab__card-robot.css);
 @import url(./blocks/lab/__card-title/lab__card-title.css);
 @import url(./blocks/lab/__card-descr/lab__card-descr.css);
 @import url(./blocks/lab/__card-btn/lab__card-btn.css);
-@import url(./blocks/lab/__card-btn/_active/lab__card-btn_active.css);
 @import url(./blocks/lab/__card-logo/lab__card-logo.css);
+@import url(./blocks/lab/__card-logo-img/lab__card-logo-img.css);
 @import url(./blocks/popup/popup.css);
 @import url(./blocks/popup/__container/popup__container.css);
 @import url(./blocks/popup/__close/popup__close.css);

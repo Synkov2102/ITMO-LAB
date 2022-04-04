@@ -5,6 +5,7 @@
   font-size: 18px;
   line-height: 30px;
   text-align: center;
+  z-index: 2;
 }
 
 @media screen and (max-width: 1439px) {

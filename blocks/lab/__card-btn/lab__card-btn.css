@@ -2,7 +2,7 @@
   padding: 10px 8px;
   width: 215px;
   height: 40px;
-  background: inherit;
+  background: transparent;
   border: 1px solid #000;
   box-sizing: border-box;
   border-radius: 10px;
@@ -10,9 +10,10 @@
   font-size: 14px;
   line-height: 19px;
   text-align: center;
+  z-index: 2;
 }
 
-.lab__card-btn:active {
+.lab__card-btn:active:not(.hover) {
   border: 1px solid #009FAC;
   color: #009FAC;
   background: #fff;
