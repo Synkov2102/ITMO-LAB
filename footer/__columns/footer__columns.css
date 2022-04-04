@@ -7,12 +7,14 @@
     .footer__columns {
         display: flex;
         grid-area: column;
-        justify-content: space-around;
+        padding-left: 10px;
+        justify-content: flex-start;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
     .footer__columns {
+        padding-left: 10px;
         justify-content: flex-start;
     }
 }
