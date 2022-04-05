@@ -1,0 +1,16 @@
+.news-item__date {
+    font-style: italic;
+    font-weight: 400;
+    color: #009FAC;
+    margin: 0;
+    font-size: 12px;
+    line-height: 145%;
+    margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+    .news-item__date {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}

@@ -1,0 +1,13 @@
+.about-us {
+    width: 100%;
+    background-color: #001337;
+
+}
+
+@media screen and (min-width: 1440px) {
+    .about-us {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

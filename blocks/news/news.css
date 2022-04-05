@@ -1,0 +1,27 @@
+.news {
+    max-width: 288px;
+    min-height: 290px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: visible;
+    z-index: 0;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .news {
+        max-width: calc(768px - 2 * 39px);
+        min-height: 380px;
+        margin-bottom: 60px;
+    }  
+}
+
+@media screen and (min-width: 1440px) {
+    .news {
+        max-width: 1110px;
+        min-height: 410px;
+        margin-bottom: 60px;
+        overflow: hidden;
+        padding: 15px 15px 0;
+    }  
+}

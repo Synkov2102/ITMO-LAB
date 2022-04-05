@@ -1,0 +1,39 @@
+.news-item {
+    background: #E0F0FF;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    overflow: visible;
+    width: 288px;
+    height: 250px;
+    padding: 16px;
+}
+
+.news-item::after {
+    content: '';
+    width: 24px;
+    height: 31px;
+    background: url(../../../images/pin-icon.svg);
+    position: absolute;
+    top: -12px;
+    right: -8px;
+    z-index: 11;
+    overflow: visible;
+}
+
+@media screen and (min-width: 768px) {
+    .news-item {
+        width: 330px;
+        height: 330px;
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .news-item {
+        width: 348px;
+        height: 340px;
+        padding-bottom: 30px;
+    }
+}

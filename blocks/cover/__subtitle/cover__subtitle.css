@@ -1,0 +1,25 @@
+.cover__subtitle {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    font-size: 14px;
+    line-height: 19px;
+    margin: 16px 0;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 768px) {
+    .cover__subtitle {
+        font-size: 18px;
+        line-height: 30px;
+        margin: 12px 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .cover__subtitle {
+        font-size: 20px;
+        margin: 12px 0;
+    }
+}

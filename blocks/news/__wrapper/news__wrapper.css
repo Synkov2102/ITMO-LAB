@@ -1,0 +1,16 @@
+.news__wrapper {
+
+}
+
+@media screen and (min-width: 768px) {
+    .news__wrapper {
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+    .news__wrapper {
+        width: 1110px;
+    }
+    
+}
