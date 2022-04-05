@@ -1,0 +1,12 @@
+.footer__info {
+    display: grid;
+    grid-template-rows: 18% 65%;
+    grid-area: info;
+}
+
+@media (max-width:765px) {
+    .footer__info {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,20 @@
+.footer__info-telefone {
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+.footer__info-telefone:nth-of-type(2n) {
+    margin-top: 14px;
+}
+
+@media (max-width:768px) {
+    .footer__info-telefone:nth-of-type(2n) {
+        margin-top: 12px;
+    }
+}
+
+@media (max-width:320px) {
+    .footer__info-telefone:nth-of-type(2n) {
+        margin-top: 8px;
+    }
+}

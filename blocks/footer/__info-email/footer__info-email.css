@@ -1,0 +1,10 @@
+.footer__info-email {
+    list-style-type: none;
+    margin-top: 12px;
+}
+
+@media (max-width:320px) {
+    .footer__info-email {
+        margin-top: 8px;
+    }
+}

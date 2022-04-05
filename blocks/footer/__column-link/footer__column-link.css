@@ -1,0 +1,37 @@
+.footer__column-link {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    padding-left: 0px;
+}
+
+@media (max-width:768px) {
+    .footer__column-link {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 23px;
+        ;
+    }
+}
+
+@media (max-width:765px) {
+    .footer__column-link {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+}
+
+@media (max-width:425px) {
+    .footer__column-link {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.10000000149011612px;
+    }
+}

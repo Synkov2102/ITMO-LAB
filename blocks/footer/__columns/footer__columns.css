@@ -1,0 +1,20 @@
+.footer__columns {
+    display: flex;
+    grid-area: column;
+}
+
+@media (max-width: 765px) {
+    .footer__columns {
+        display: flex;
+        grid-area: column;
+        padding-left: 10px;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 400px) {
+    .footer__columns {
+        padding-left: 10px;
+        justify-content: flex-start;
+    }
+}

@@ -1,0 +1,52 @@
+.footer__main {
+    width: 1110px;
+    height: 418px;
+    display: grid;
+    grid-template-rows: 17% 73% 10%;
+    grid-template-columns: 25% 54% 21%;
+    grid-template-areas: "logo logo logo" "text column info" "author author author ";
+}
+
+@media (max-width:1439px) {
+    .footer__main {
+        width: 90%;
+        height: 90%;
+        grid-template-columns: 29% 50% 20%;
+    }
+}
+
+@media (max-width:1088px) {
+    .footer__main {
+        grid-template-columns: 35% 37% 28%;
+    }
+}
+
+@media (max-width:863px) {
+    .footer__main {
+        grid-template-rows: 15% 80% 10%;
+        grid-template-columns: 32% 36% 30%;
+    }
+}
+
+@media (max-width:768px) {
+    .footer__main {
+        grid-template-rows: 10% 73% 10%;
+        grid-template-columns: 36% 35% 29%;
+    }
+}
+
+@media (max-width:765px) {
+    .footer__main {
+        grid-template-rows: 10% 40% 40% 10%;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: "logo text" "column column" "info info" "author author";
+    }
+}
+
+@media (max-width:320px) {
+    .footer__main {
+        width: 99%;
+        height: 100%;
+        grid-template-rows: 13% 35% 35% 10%;
+    }
+}

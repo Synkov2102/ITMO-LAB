@@ -1,0 +1,16 @@
+    .footer__texts {
+        margin-top: 6px;
+        margin-left: 0px;
+    }
+    
+    @media (max-width:768px) {
+        .footer__texts {
+            margin-top: 20px;
+        }
+    }
+    
+    @media (max-width:765px) {
+        .footer__texts {
+            margin-top: 0px;
+        }
+    }

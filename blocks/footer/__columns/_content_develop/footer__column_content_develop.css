@@ -1,0 +1,36 @@
+.footer__column_content_develop {
+    margin-left: 26%;
+}
+
+@media (max-width:1280px) {
+    .footer__column_content_develop {
+        margin-left: calc(25% - 5%);
+    }
+}
+
+@media (max-width:863px) {
+    .footer__column_content_develop {
+        margin-left: calc(25% - 20%);
+    }
+}
+
+@media (max-width:768px) {
+    .footer__column_content_develop {
+        margin-left: 43px;
+        margin-top: 93px;
+    }
+}
+
+@media (max-width:768px) {
+    .footer__column_content_develop {
+        margin-left: 0px;
+        margin-top: 0px;
+        align-self: center;
+    }
+}
+
+@media (max-width:768px) {
+    .footer__column_content_develop {
+        margin-left: 70px;
+    }
+}
