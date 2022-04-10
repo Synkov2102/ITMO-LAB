@@ -2,18 +2,172 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" /> -->
+    <link rel="stylesheet" href="./index.css">
     <title>ITMO Lab</title>
   </head>
-  <body>
-    <header></header>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
+
+  <body class="page">
+
+    <header class="header">
+      <div class="header__container">
+        <div class="header__container-logo">
+          <img src="./images/Logo_A.svg" alt="логотип" class="header__logo"></img>
+        </div>
+        
+        <div class="header__menu menu">
+          <div class="menu__icon">
+            <span></span>
+          </div>
+          <nav class="menu__body">
+            <ul class="menu__list">
+              <li><a data-goto=".about-us__modifier_1" href="#" class="menu__link">О нас</a></li>
+              <li><a data-goto=".lab__modifier_2" href="#" class="menu__link">Лаборатория</a></li>
+              <li><a data-goto=".projects__modifier_3" href="#" class="menu__link">Проекты</a></li>
+              <li>
+                <a  href="#" data-goto=".education__modifier_4" class="menu__link menu__sub">Образование</a>
+                
+                <ul class="menu__sub-list">
+                  <li>
+                    <a data-goto=".education__modifier_4" href="#" class="menu__sub-link" onclick="toggleImgMag()">Магистратура</a>
+                  </li>
+                  <li>
+                    <a data-goto=".education__modifier_4" href="#" class="menu__sub-link"  onclick="toggleImgAsp()">Аспирантура</a>
+                  </li>
+                </ul>
+              </li>
+              <li><a data-goto=".publications__modifier_5" href="#" class="menu__link">Публикации</a></li>
+              <li><a data-goto=".team__modifier_6" href="#" class="menu__link">Команда</a></li>
+              <li><a data-goto=".connection__modifier_7" href="#" class="menu__link">Связаться</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="page1">
+      <section class="cover">
+        <div class="cover__wrapper wrapper">
+          <div class="cover__content">
+            <h1 class="cover__title"><b>Когнитивные технологии,</b> машинное обучение</h1>
+            <p class="cover__subtitle">Системы прикладного искусственного<br /> интеллекта</p>
+            <button class="cover__button">НАШИ ПРОЕКТЫ</button>
+          </div>
+          <div class="about-us about-us__modifier_1">
+            <h2 class="about-us__title">НЕСКОЛЬКО СЛОВ О НАС</h2>
+            <p class="about-us__text">
+              Национальный центр когнитивных разработок – центр национальной технологической инициативы (НТИ), получивший
+              государственную поддержку по направлению «Технологии машинного обучения
+              и когнитивные технологии».
+            </p>
+          </div>
+        </div>
+      </section>
+  
+      <section class="lab lab__modifier_2">
+        <div class="container about-us">
+          <h2 class="lab__title about-us__title">INDUSTRIAL AI RESEARCH LAB</h2>
+          <p class="about-us__text">
+            Национальный центр когнитивных разработок – центр национальной технологической инициативы (НТИ), получивший
+            государственную поддержку по направлению «Технологии машинного обучения
+            и когнитивные технологии».
+          </p>
+        </div>
+      </section>
+  
+      <section class="projects projects__modifier_3">
+        <div class="container about-us">
+          <h2 class="projects__title about-us__title">НАШИ ПРОЕКТЫ</h2>
+          <p class="about-us__text">
+            Национальный центр когнитивных разработок – центр национальной технологической инициативы (НТИ), получивший
+            государственную поддержку по направлению «Технологии машинного обучения
+            и когнитивные технологии».
+          </p>
+        </div>
+      </section>
+  
+      <section class="education education__modifier_4">
+        <div class="education__container">
+          <h2 class="education__title">ОБРАЗОВАНИЕ</h2>
+          <p class="education__text">
+            В образовательной деятельности НЦКР активно использует существующую в Университете ИТМО инфраструктуру и опыт реализации сетевых форм обучения, опираясь на вузы-диссеминаторы (ННГУ, ДВФУ, ФГБОУ ВО «МГТУ «СТАНКИН», НовГУ), а также профильную компанию ООО «НЦЭО» в области электронного и дистанционного образования. Реализуются образовательные программы различных форматов.
+          </p>
+          <div class="element">
+            <div class="element__content">
+              <div class="element__info">
+                <h3 class="element__title">Образовательные программы аспирантуры в области МО и КТ</h3>
+                <ul class="element__sub-list">
+                  <li class="element__text">Машинное обучение и искусственный интеллект;</li>
+                  <li class="element__text">Биометрические информационные системы;</li>
+                  <li class="element__text">Прикладные технологии искусственного интеллекта;</li>
+                  <li class="element__text">Речевые информационные системы;</li>
+                  <li class="element__text">Когнитивные вычисления и квантовый интеллект;</li>
+                  <li class="element__text">Большие данные и экстренные вычисления;</li>
+                  <li class="element__text">Семантические системы и инженерия знаний;</li>
+                  <li class="element__text">Технологии разработки компьютерных игр</li>
+                </ul>
+                <div class="element__sub-link">
+                  <a class="element__link" href="#">Подробнее</a>
+                  <div class="element__arrow">
+                    <div></div>
+                </div>
+                </div>
+                
+              </div>
+              <div class="element__img">
+                <img src="./images/Study/Magistr.png" class="switcher__radio-magistr" id="btn1">
+              </div>
+              
+            </div>
+            
+              <fieldset class="switcher">
+                <legend class="switcher__legend">Tab bar</legend>
+                <input class="switcher__radio" type="button" name="switch-buttons" value="АСПИРАНТУРА" aria-label="АСПИРАНТУРА" onclick="toggleImgMag('./images/Study/Aspirant.png')" >
+                <input class="switcher__radio switcher__radio_active" type="button" name="switch-buttons" value="МАГИСТРАТУРА" aria-label="МАГИСТРАТУРА" onclick="toggleImgMag('./images/Study/Magistr.png')" checked>
+              </fieldset>
+            
+          </div>
+        </div>
+      </section>
+  
+      <section class="publications publications__modifier_5">
+        <div class="container about-us">
+          <h2 class="publications__title about-us__title">ПУБЛИКАЦИИ</h2>
+          <p class="about-us__text">
+            Национальный центр когнитивных разработок – центр национальной технологической инициативы (НТИ), получивший
+            государственную поддержку по направлению «Технологии машинного обучения
+            и когнитивные технологии».
+          </p>
+        </div>
+      </section>
+  
+      <section class="team team__modifier_6">
+        <div class="container about-us">
+          <h2 class="team__title about-us__title">НАША КОМАНДА</h2>
+          <p class="about-us__text">
+            Национальный центр когнитивных разработок – центр национальной технологической инициативы (НТИ), получивший
+            государственную поддержку по направлению «Технологии машинного обучения
+            и когнитивные технологии».
+          </p>
+        </div>
+      </section>
+  
+      <section class="connection connection__modifier_7">
+        <div class="container about-us">
+          <h2 class="connection__title about-us__title">ВСЕГДА НА СВЯЗИ</h2>
+          <p class="about-us__text">
+            Национальный центр когнитивных разработок – центр национальной технологической инициативы (НТИ), получивший
+            государственную поддержку по направлению «Технологии машинного обучения
+            и когнитивные технологии».
+          </p>
+        </div>
+      </section>
+    </main>
+    
+
     <footer></footer>
+
+    <script src="./index.js"></script>
   </body>
 </html>

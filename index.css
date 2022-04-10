@@ -1,0 +1,55 @@
+@import url("./vendor/normalize.css");
+@import url("./vendor/fonts/Open_Sans/fonts.css");
+@import url("./blocks/body/body.css");
+@import url("./blocks/header/header.css");
+@import url("./blocks/header/__menu/header__menu.css");
+@import url("./blocks/header/__container/header__container.css");
+@import url("./blocks/header/__container-logo/header__container-logo.css");
+@import url("./blocks/header/__logo/header__logo.css");
+@import url("./blocks/menu/__list/menu__list.css");
+@import url("./blocks/menu/__link/menu__link.css");
+@import url("./blocks/menu/__icon/menu__icon.css");
+@import url("./blocks/menu/__body/menu__body.css");
+@import url("./blocks/menu/__sub-list/menu__sub-list.css");
+@import url("./blocks/menu/__sub-link/menu__sub-link.css");
+@import url("./blocks/education/education.css");
+@import url("./blocks/education/__container/education__container.css");
+@import url("./blocks/education/__title/education__title.css");
+@import url("./blocks/education/__text/education__text.css");
+@import url("./blocks/element/element.css");
+@import url("./blocks/element/__content/element__content.css");
+@import url("./blocks/element/__info/element__info.css");
+@import url("./blocks/element/__img/element__img.css");
+@import url("./blocks/switcher/switcher.css");
+@import url("./blocks/switcher/__legend/switcher__legend.css");
+@import url("./blocks/switcher/__radio/switcher__radio.css");
+@import url("./blocks/switcher/__radio/-aspirant/switcher__radio-aspirant.css");
+@import url("./blocks/switcher/__radio/-magistr/switcher__radio-magistr.css");
+@import url("./blocks/element/__title/element__title.css");
+@import url("./blocks/element/__text/element__text.css");
+@import url("./blocks/element/__arrow/element__arrow.css");
+@import url("./blocks/element/__link/element__link.css");
+@import url("./blocks/element/__sub-link/element__sub-link.css");
+@import url("./blocks/element/__sub-list/element__sub-list.css");
+
+
+
+@import url("./blocks/wrapper/wrapper.css");
+
+
+@import url("./blocks/cover/");
+@import url("./blocks/cover/__wrapper/cover__wrapper.css");
+@import url("./blocks/cover/__content/cover__content.css");
+@import url("./blocks/about-us/about-us.css");
+@import url("./blocks/about-us/__title/about-us__title.css");
+@import url("./blocks/about-us/__text/about-us__text.css");
+
+.container {
+    width: 100%;
+    min-width: 320px;
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    min-height: 700px;
+}
+

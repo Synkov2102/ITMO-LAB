@@ -1,0 +1,66 @@
+.menu__icon {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .menu__icon {
+        z-index: 5;
+        display: block;
+        position: relative;
+        cursor: pointer;
+        width: 24px;
+        height: 24px;
+        right: -39px;
+        bottom: 0px;
+    }
+
+    .menu__icon span,
+    .menu__icon::before,
+    .menu__icon::after {
+        left: 0;
+        position: absolute;
+        height: 10%;
+        width: 100%;
+        transition: all 0.3s ease 0s;
+        background-color: #fff;
+    }
+
+    .menu__icon::before,
+    .menu__icon::after {
+        content: "";
+    }
+
+    .menu__icon::before {
+        top: 0;
+    }
+
+    .menu__icon::after {
+        bottom: 0;
+    }
+
+    .menu__icon span {
+        top: 50%;
+        transform: scale(1) translate(0px, -50%);
+    }
+
+    /* анимация крестика в меню */
+    .menu__icon._active span {
+        transform: scale(0) translate(0px, -50%);
+    }
+    /* анимация крестика в меню */
+    .menu__icon._active::before {
+        top: 50%;
+        transform: rotate(-45deg) translate(0px, -50%);
+    }
+    /* анимация крестика в меню */
+    .menu__icon._active::after {
+        bottom: 50%;
+        transform: rotate(45deg) translate(0px, 50%);
+    }
+
+    /* .menu__icon._active span,
+    .menu__icon._active::before,
+    .menu__icon._active::after {
+        left: 650px;
+    } */
+}

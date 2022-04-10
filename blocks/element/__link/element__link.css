@@ -1,0 +1,41 @@
+.element__link {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000D26;
+}
+
+@media (max-width: 1024px) {
+    .element__link {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+
+@media (max-width: 768px) {
+    .element__link {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+/* .elemen__link:hover {
+    animation: elemen__sub-link 1s linear infinite;
+}
+
+@keyframes elemen__link {
+    0% {
+        left:0;
+    }
+    50% {
+        left:10px;
+    }
+    100% {
+        left:0;
+    }
+} */

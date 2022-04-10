@@ -1,0 +1,17 @@
+.element__info {
+    max-width: 635px;
+    margin: 0 29px 0 0;
+}
+
+@media (max-width: 1024px) {
+    .element__info {
+        max-width: 340px;
+    }
+}
+
+@media (max-width: 768px) {
+    .element__info {
+        max-width: 288px;
+        margin: 0px;
+    }
+}

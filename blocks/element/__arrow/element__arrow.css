@@ -1,0 +1,90 @@
+.element__arrow {
+    cursor: pointer;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    margin: 13px 0 0 8px;
+}
+
+.element__arrow div {
+    position: relative;
+    top: 0px;
+    width: 21px;
+    height: 3px;
+    background-color: #000D26;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    left:0;
+    display: block;
+}
+.element__arrow div::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 2px;
+    top: -3px;
+    right: -3px;
+    background-color: #000D26;
+    transform: rotate(45deg);
+}
+.element__arrow div::before {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 2px;
+    top: 4px;
+    right: -3px;
+    background-color: #000D26;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    transform: rotate(-45deg);
+}
+.element__arrow:hover {
+    animation: element__arrow 1s linear infinite;
+}
+@keyframes element__arrow {
+    0% {
+        left:0;
+    }
+    50% {
+        left:10px;
+    }
+    100% {
+        left:0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .element__arrow div {
+        width: 16px;
+        height: 2px;
+    }
+    .element__arrow div::after {
+        width: 9px;
+        height: 1px;
+        right: -1px;
+    }
+    .element__arrow div::before {
+        width: 9px;
+        height: 1px;
+        right: -1px;
+    }
+}
+
+@media (max-width: 768px) {
+    .element__arrow div {
+        width: 14px;
+        height: 8%;
+        top: 1px;
+    }
+    .element__arrow div::after {
+        width: 6px;
+        height: 1px;
+        right: 0px;
+        top: -3px;
+    }
+    .element__arrow div::before {
+        width: 6px;
+        height: 1px;
+        right: 0px;
+        top: 3px;
+    }
+}

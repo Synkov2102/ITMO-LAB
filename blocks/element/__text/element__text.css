@@ -1,0 +1,17 @@
+.element__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    color: #000D26;
+}
+
+@media (max-width: 1024px) {
+    .element__text {
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.0588372px;
+    }
+}

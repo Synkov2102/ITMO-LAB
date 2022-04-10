@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+    .element__sub-list {
+        padding-left: 13px;
+        margin: 0px;
+    }
+}

@@ -1,0 +1,44 @@
+.switcher__radio {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #E0F0FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 275px;
+    height: 60px;
+    transition: filter 0.1s ease-in;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: #009FAC;
+    color: white;
+}
+
+.switcher__radio:focus {
+    background: #E0F0FF;
+    color: black;
+}
+
+.switcher__radio._active {
+    background: #E0F0FF;
+}
+
+@media (max-width: 1024px) {
+    .switcher__radio {
+        width: 232px;
+        height: 44px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+}
+}
+
+@media (max-width: 768px) {
+    .switcher__radio {
+        width: 144px;
+        height: 40px;
+        font-size: 12px;
+        line-height: 16px;
+}
+}

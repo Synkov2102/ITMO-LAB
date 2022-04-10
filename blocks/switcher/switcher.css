@@ -1,0 +1,27 @@
+.switcher {
+    width: 540px;
+    height: 60px;
+    background: #009FAC;
+    border: 1px solid #E0F0FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 35px auto 0;
+    padding: 0;
+    display: flex;
+}
+
+@media (max-width: 1024px) {
+    .switcher {
+        width: 450px;
+        height: 44px;
+        margin: 30px auto 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .switcher {
+        width: 288px;
+        height: 40px;
+        margin: 16px auto 0;
+    }
+}

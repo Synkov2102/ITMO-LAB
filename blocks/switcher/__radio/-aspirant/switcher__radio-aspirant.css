@@ -1,0 +1,14 @@
+.switcher__radio-aspirant {
+    /* background-image: url(../../../../images/Study/Aspirant.png); */
+    width: 445px;
+    height: 364px;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+@media (max-width: 1024px) {
+    .switcher__radio-aspirant {
+        width: 100%;
+        height: 100%;
+    }
+}

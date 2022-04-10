@@ -1,0 +1,17 @@
+.menu__link {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    width: 100px;
+    height: 44px;
+    /* margin-left: 40px; */
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+}
+

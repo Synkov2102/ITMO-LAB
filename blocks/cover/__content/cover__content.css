@@ -1,0 +1,10 @@
+.cover__content {
+    margin: 30px 16px 68px;
+}
+
+@media screen and (min-width: 768px) {
+    .cover__content {
+        max-width: 445px;
+        margin: 58px 0 120px 39px;
+    }   
+}
