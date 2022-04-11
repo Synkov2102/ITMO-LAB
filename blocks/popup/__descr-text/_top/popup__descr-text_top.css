@@ -1,0 +1,6 @@
+@media screen and (max-width: 1439px) {
+  .popup__descr-text_top {
+    display: none;
+  }
+}
+

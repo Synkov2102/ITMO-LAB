@@ -1,0 +1,9 @@
+.popup__descr {
+ margin-left: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .popup__descr {
+    margin: 0;
+  }
+}

@@ -1,0 +1,13 @@
+.lab__about-img {
+  position: absolute;
+  top: 0;
+  left: -36px;
+  width: 24px;
+  height: 22.5px;
+}
+
+@media screen and (max-width: 1439px) {
+  .lab__about-img {
+    display: none;
+  }
+}
