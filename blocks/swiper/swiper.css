@@ -77,6 +77,17 @@
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .swiper-button-next-project {
+    right: 470px;
+    top: 88%;
+  }
+  .swiper-button-prev-project {
+    left: 470px;
+    top: 88%;
+  }
+}
+
 .swiper-pagination-project {
   z-index: 1;
   position: absolute;

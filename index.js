@@ -70,7 +70,6 @@ function handleMenuOpen() {
 
 // Close the dropdown if the user clicks outside of it
 window.onclick = function (e) {
-  console.log(e.target)
   if (!((e.target.matches(".projects__button"))||(e.target.matches(".projects__filter-item")))) {
     var myDropdown = document.getElementById("filterDrop");
     if (myDropdown.classList.contains("projects__filter-content_show")) {
