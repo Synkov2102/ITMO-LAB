@@ -1,0 +1,8 @@
+.filter-card__logo_theme_gazprom{
+    width: 112px;
+    height: 48px;
+    mask-image: url('../../../../images/gazprom-logo.svg');
+    -webkit-mask-image: url('../../../../images/gazprom-logo.svg');
+    mask-size: contain;
+    -webkit-mask-size: contain;
+}
