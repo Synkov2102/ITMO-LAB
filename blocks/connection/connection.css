@@ -1,0 +1,16 @@
+.connection {
+  background: #009FAC;
+  padding: 80px 165px 40px;
+}
+
+@media screen and (max-width: 1439px) {
+  .connection{
+    padding: 60px 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .connection {
+    padding: 40px 16px;
+  }
+}

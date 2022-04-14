@@ -1,5 +1,5 @@
 .footer__logo {
-    background-image: url(../../images/Logo_footer.svg);
+    background-image: url(../../../images/Logo_footer.svg);
     width: 150px;
     height: 54px;
     background-repeat: no-repeat;
@@ -8,7 +8,6 @@
 
 @media (max-width:425px) {
     .footer__logo {
-        background-image: url(../../images/Logo_small.svg);
         width: 98px;
         height: 33px;
     }

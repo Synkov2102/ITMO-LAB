@@ -1,0 +1,20 @@
+.connection__wrapper {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1439px) {
+  .connection__wrapper {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .connection__wrapper {
+    max-width: 320px;
+    min-width: 0;
+  }
+}

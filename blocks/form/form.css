@@ -1,0 +1,27 @@
+.form {
+  display: grid;
+  resize: none;
+  grid-template-rows: repeat(3, 60px);
+  grid-template-columns: repeat(3, minmax(352px, 1fr));
+  margin: 0 auto;
+  margin-top: 60px;
+  gap: 20px 29px;
+}
+
+@media screen and (max-width: 1439px) {
+  .form {
+    margin-top: 37px;
+    grid-template-rows: repeat(3, 44px);
+    grid-template-columns: repeat(3, minmax(210px, 1fr));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .form {
+    margin-top: 23px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+  }
+}
