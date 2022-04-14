@@ -1,0 +1,54 @@
+.filter-card {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 10px;
+  width: 254px;
+  height: 297px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.filter-card::after {
+  content: "";
+  position: absolute;
+  padding-top: 10px;
+  z-index: 1;
+  width: 254px;
+  height: 297px;
+  left: 0;
+  top: 0;
+  background-color: #009fac;
+  transition: background-color 1s;
+  opacity: 0.4;
+  border-radius: 10px;
+}
+
+.swiper-slide:hover .filter-card::after{
+    background-color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .filter-card {
+    width: 210px;
+    height: 280px;
+  }
+
+  .filter-card::after {
+    width: 210px;
+    height: 280px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+    .filter-card {
+        width: 254px;
+        height: 297px;
+      }
+    
+      .filter-card::after {
+        width: 254px;
+        height: 297px;
+      }
+}

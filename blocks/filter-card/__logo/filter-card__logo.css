@@ -1,0 +1,26 @@
+.filter-card__logo {
+  z-index: 2;
+  margin-left: 20px;
+  background-color: white;
+  display: block;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  transition: background-color 1s;
+}
+
+.swiper-slide:hover .filter-card__logo{
+    background-color: #001337;
+}
+
+@media screen and (min-width: 768px) {
+  .filter-card__logo {
+    margin-left: 16px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .filter-card__logo {
+    width: 214px;
+    height: 160px;
+  }
+}

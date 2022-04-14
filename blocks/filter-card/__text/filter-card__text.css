@@ -1,0 +1,40 @@
+.filter-card__text {
+  width: 214px;
+  height: 160px;
+  margin: 20px 0 20px 20px;
+  z-index: 2;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  letter-spacing: 0.1px;
+
+  /* White */
+
+  color: #ffffff;
+
+  transition: color 1s;
+}
+
+.swiper-slide:hover .filter-card__text{
+    color: #001337;
+}
+
+@media screen and (min-width: 768px) {
+  .filter-card__text {
+    margin: 16px 0 8px 16px;
+    font-size: 12px;
+    width: 178px;
+    height: 160px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .filter-card__text {
+    width: 214px;
+    height: 160px;
+  }
+}
