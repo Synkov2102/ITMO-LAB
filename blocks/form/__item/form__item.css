@@ -1,6 +1,7 @@
 .form__item {
   outline: none;
   border: none;
+  resize: none;
   border-radius: 10px;
   padding: 20px;
 }

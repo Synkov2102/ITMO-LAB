@@ -1,0 +1,34 @@
+.projects__button {
+  display: block;
+  position: relative;
+  width: 100%;
+  text-align: start;
+  background: transparent;
+  padding: 0 10px;
+  height: 44px;
+  color: white;
+  border: none;
+  border-bottom: 2px solid #009fac;
+}
+
+.projects__button::after {
+  position: absolute;
+  left: 90%;
+  width: 12px;
+  height: 6px;
+  content: "\142F";
+}
+
+.projects__button.projects__button_active::after {
+  position: absolute;
+  left: 90%;
+  width: 12px;
+  height: 6px;
+  content: "\1431";
+}
+
+@media screen and (min-width: 768px) {
+  .projects__button {
+    display: none;
+  }
+}

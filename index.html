@@ -2,6 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ITMO Lab</title>
     <link
       rel="stylesheet"
@@ -128,8 +129,130 @@
         </div>
       </div>
     </section>
-    <section></section>
-    <section></section>
+    <section class="lab">
+      <div class="container">
+        <h2 class="lab__title">INDUSTRIAL AI RESEARCH LAB</h2>
+        <div class="lab__content">
+          <div class="lab__descr">
+            <p class="lab__descr-text">Центр национальной технологической инициативы (НТИ), получивший государственную поддержку 
+              по направлению «Технологии машинного обучения 
+              и когнитивные технологии».</p>
+            <div class="lab__about">
+              <img src="./images/logo/about.svg" alt="Логотип" class="lab__about-img">
+              <p class="lab__about-text">Мы изучаем проблемы и выявляем, когда мы работаем вместе с нашими клиентами, новые решения находят, не задумываясь. Работая таким образом 
+                и проявляя гибкость, мы можем поддерживать новый подход для удовлетворения потребностей наших клиентов.</p>
+            </div>
+          </div>
+          <div class="lab__photos">
+            <img class="lab__photos-img" src="./images/image 1.png" alt="НТИ">
+            <img class="lab__photos-img" src="./images/image 2.png" alt="НТИ">
+          </div>
+        </div>
+        <ul class="lab__cards">
+          <li class="lab__card lab__card-project">
+            <h2 class="lab__card-title">Анализ социальных данных</h2>
+            <div class="lab__card-logo lab__card-logo-analysis">
+              <img src="./images/Project.png" alt="карточка" class="lab__card-logo-img">
+            </div>
+            <p class="lab__card-descr">Направление включает в себя исследования и разработки технологий МО и КТ</p>
+            <button type="button" class="lab__card-btn">Подробнее</button>
+          </li>
+          <li class="lab__card lab__card-machine">
+            <h2 class="lab__card-title">Инфраструктура больших данных</h2>
+            <div class="lab__card-logo lab__card-logo-infrastructure">
+              <img src="./images/Machine learning.png" alt="карточка" class="lab__card-logo-img">
+            </div>
+            <p class="lab__card-descr">Направление включает в себя исследования и разработки технологий МО и КТ</p>
+            <button type="button" class="lab__card-btn">Подробнее</button>
+          </li>
+          <li class="lab__card lab__card-data">
+            <h2 class="lab__card-title">Облачные <br> вычисления</h2>
+            <div class="lab__card-logo lab__card-logo-calculations">
+              <img src="./images/Data.png" alt="карточка" class="lab__card-logo-img">
+            </div>
+            <p class="lab__card-descr">Направление включает в себя исследования и разработки технологий МО и КТ</p>
+            <button type="button" class="lab__card-btn">Подробнее</button>
+          </li>
+          <li class="lab__card lab__card-robot">
+            <h2 class="lab__card-title">QA <br> системы</h2>
+            <div class="lab__card-logo lab__card-logo-QA">
+              <img src="./images/Robot.png" alt="карточка" class="lab__card-logo-img">
+            </div>
+            <p class="lab__card-descr">Направление включает в себя исследования и разработки технологий МО и КТ</p>
+            <button type="button" class="lab__card-btn">Подробнее</button>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="projects">
+      <h2 class="projects__title">Наши проекты</h2>
+      <div class="projects__wrapper wrapper">
+        <div class="projects__filter">
+          <button class="projects__button" id="pr-button">Все проекты</button>
+          <div class="projects__filter-content" id="filterDrop">
+            <p class="projects__filter-item projects__filter-item_active">Все проекты</p>
+            <p class="projects__filter-item">Гос. проекты</p>
+            <p class="projects__filter-item">Спецпрограммы</p>
+            <p class="projects__filter-item">В разработке</p>
+          </div>
+        </div>
+        <div class="swiper-container-project">
+          <div class="swiper-project">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <article class="swiper-slide">
+                <div class="filter-card filter-card_theme_gazprom">
+                  <div class="filter-card__logo filter-card__logo_theme_gazprom"></div>
+                  <p class="filter-card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры 
+                    с элементами МО и КТ, или программы ДПО.</p>
+                  <a class="filter-card__more" href="">Подробнее</a>
+                </div>
+              </article>
+              <article class="swiper-slide">
+                <div class="filter-card filter-card_theme_sberbank">
+                  <div class="filter-card__logo filter-card__logo_theme_sberbank"></div>
+                  <p class="filter-card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры 
+                    с элементами МО и КТ, или программы ДПО.</p>
+                  <a class="filter-card__more" href="">Подробнее</a>
+                </div>
+              </article>
+              <article class="swiper-slide">
+                <div class="filter-card filter-card_theme_gazprom">
+                  <div class="filter-card__logo filter-card__logo_theme_gazprom"></div>
+                  <p class="filter-card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры 
+                    с элементами МО и КТ, или программы ДПО.</p>
+                  <a class="filter-card__more" href="">Подробнее</a>
+                </div>
+              </article>
+              <article class="swiper-slide">
+                <div class="filter-card filter-card_theme_sberbank">
+                  <div class="filter-card__logo filter-card__logo_theme_sberbank"></div>
+                  <p class="filter-card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры 
+                    с элементами МО и КТ, или программы ДПО.</p>
+                  <a class="filter-card__more" href="">Подробнее</a>
+                </div>
+              </article>
+              <article class="swiper-slide">
+                <div class="filter-card filter-card_theme_sberbank">
+                  <div class="filter-card__logo filter-card__logo_theme_sberbank"></div>
+                  <p class="filter-card__text">Направление включает в себя исследования и разработки технологий МО и КТ. Модули для внедрения в предметные сетевые программы магистратуры 
+                    с элементами МО и КТ, или программы ДПО.</p>
+                  <a class="filter-card__more" href="">Подробнее</a>
+                </div>
+              </article>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination-project"></div>
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev-project"></div>
+          <div class="swiper-button-next-project"></div>
+        </div>
+      </div>
+      </div>
+      
+    </section>
     <section></section>
     <section></section>
     <section></section>
@@ -262,7 +385,35 @@
         <div class="footer__author">Сделано студентами Яндекс. Практикума</div>
       </div>
     </footer>
+    <div class="popup">
+      <div class="popup__container">
+        <button type="button" class="popup__close">
+          <img src="./images/logo/close.svg" alt="Крестик закрытия попапа" class="popup__close-img">
+        </button>
+        <div class="popup__content">
+          <img src="./images/popup.png" alt="Картинка попапа" class="popup__image">
+          <div class="popup__descr">
+            <h2 class="popup__descr-title">Анализ социальных данных</h2>
+            <p class="popup__descr-text popup__descr-text_top">Учебные лаборатории оснащены современным компьютерным оборудованием, техническими средствами защиты информации, программными и программно-аппаратными комплексами средств защиты, разработанными ведущими производителями: Positive Technologies, Infotecs, SearchInform, «Лаборатория ППШ» и других вендоров. Некоторые из лабораторных установок являются уникальными по своим исследовательским задачам.
+            </p>
+            <p class="popup__descr-text popup__descr-text_middle">
+              Начиная с первого курса бакалавриата, студенты погружаются в область их будущей профессиональной деятельности, активно развивают навыки программирования, исследования защищенности информации в независимости от формы ее представления, проектирования комплексных интегрированных систем защиты информации, проходят различные виды практик. 
+            </p>
+            <p class="popup__descr-text">
+            В состав факультета входит ряд научных лабораторий и центров, в которых проводятся исследования: <br>
+              &middot; безопасные киберфизические системы;<br>
+              &#183; разработка средств защиты информации;<br>
+              &#183; функциональная безопасность беспилотных транспортных средств;<br>
+              &#183; теория информации и кодирования;<br>
+              &#183; информационные процессы в Интернет и безопасность виртуального пространства;<br>
+              &#183; интеллектуальные защищенные системы мультиагентного взаимодействия и пр.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="./index.js"></script>
+    <script src="./popup.js"></script>
   </body>
 </html>

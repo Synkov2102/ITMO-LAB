@@ -1,5 +1,6 @@
 .form {
   display: grid;
+  resize: none;
   grid-template-rows: repeat(3, 60px);
   grid-template-columns: repeat(3, minmax(352px, 1fr));
   margin: 0 auto;

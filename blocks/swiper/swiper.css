@@ -1,33 +1,105 @@
 .swiper-button-prev {
-    width: 60px;
-    height: 60px;
-    background: url(../../images/button-prev.svg) no-repeat;
-    background-size: 60px 60px;
-    position: absolute;
-    top: 35%;
-    left: calc((1440px - 1110px) / 4);
+  width: 60px;
+  height: 60px;
+  background: url(../../images/button-prev.svg) no-repeat;
+  background-size: 60px 60px;
+  position: absolute;
+  top: 35%;
+  left: calc((1440px - 1110px) / 4);
 }
 
 .swiper-button-prev::after {
-    content: "";
+  content: "";
 }
 
 .swiper-button-next {
-    width: 60px;
-    height: 60px;
-    background: url(../../images/button-next.svg) no-repeat;
-    background-size: 60px 60px;
-    position: absolute;
-    top: 35%;
-    right: calc((1440px - 1110px) / 4);
-
+  width: 60px;
+  height: 60px;
+  background: url(../../images/button-next.svg) no-repeat;
+  background-size: 60px 60px;
+  position: absolute;
+  top: 35%;
+  right: calc((1440px - 1110px) / 4);
 }
 
 .swiper-button-next::after {
-    content: "";
+  content: "";
 }
 
 .swiper-container {
-    position: relative;
-    max-width: 1440px;
+  position: relative;
+  max-width: 1440px;
+}
+
+.swiper-button-prev-project {
+  z-index: 2;
+  width: 48px;
+  height: 48px;
+  background: url(../../images/arrow-left.svg) no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+  position: absolute;
+  top: 87%;
+  left: 300px;
+  cursor: pointer;
+  overflow: visible;
+}
+
+.swiper-button-prev-project::after {
+  content: "";
+}
+
+.swiper-button-next-project {
+  cursor: pointer;
+  z-index: 2;
+  width: 48px;
+  height: 48px;
+  background: url(../../images/arrow-right.svg) no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+  position: absolute;
+  top: 87%;
+  right: 300px;
+}
+
+.swiper-button-next-project::after {
+  content: "";
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-button-next-project {
+    right: 90px;
+    top: 88%;
+  }
+  .swiper-button-prev-project {
+    left: 90px;
+    top: 88%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .swiper-button-next-project {
+    right: 470px;
+    top: 88%;
+  }
+  .swiper-button-prev-project {
+    left: 470px;
+    top: 88%;
+  }
+}
+
+.swiper-pagination-project {
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.swiper-container-project {
+  overflow: visible;
+  position: relative;
+  max-width: 1440px;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 70px;
 }
