@@ -1,0 +1,22 @@
+.filter-card__logo_theme_sberbank {
+  width: 200px;
+  height: 48px;
+  mask-image: url("../../../../images/sberbank-logo.svg");
+  -webkit-mask-image: url("../../../../images/sberbank-logo.svg");
+  mask-size: contain;
+  -webkit-mask-size: contain;
+}
+
+@media screen and (min-width: 768px) {
+  .filter-card__logo_theme_sberbank {
+    width: 172px;
+    height: 43px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .filter-card__logo_theme_sberbank {
+    width: 200px;
+    height: 48px;
+  }
+}

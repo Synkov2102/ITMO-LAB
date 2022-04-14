@@ -1,0 +1,16 @@
+.projects__filter-content {
+  display: none;
+  flex-direction: column;
+  padding: 0 10px;
+  background-color: #000D26;
+}
+
+@media screen and (min-width: 768px) {
+  .projects__filter-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 28px;
+    background: none;
+  }
+}
